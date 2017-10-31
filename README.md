@@ -5,9 +5,11 @@ You can use this from https://mybtgwallet.com or download the entire code and us
 The first idea of this project is provide an Open Source alternative for Browser, ran in Javascript & HTML.
 
 # Usage:
-	Import your Bip39 Mnemonic and select the type of Derivation Wallet (Jaxx, Copay, Mycelium, Treazor, Ledger, Electrum (Testing, dont working well), other BIP39 Wallet Or other BIP44 Wallet).
-	Your browser convert the Bitcoin Address into Bitcoin Gold Address (Change the format, now start with "G").
-	Your browser connect with some confident Bitcoins API like Blockchain.info or Blockcypher.com and check your balance!
+Import your Bip39 Mnemonic and select the type of Derivation Wallet like (Jaxx, Copay, Mycelium, Treazor, Ledger, Electrum (Testing, dont working well), other BIP39 Wallet Or other BIP44 Wallet).
+
+Your browser convert the Bitcoin Address into Bitcoin Gold Address (Change the format, now start with "G").
+
+Your browser connect with some confident Bitcoins API like Blockchain.info or Blockcypher.com and check your balance!
 
  # Libraries and Credits:
 	- jQuery: https://jquery.com
