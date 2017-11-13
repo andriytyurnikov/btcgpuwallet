@@ -24,7 +24,7 @@ window.btcblocks=491407;
 window.btgtimeout=1000;
 
 function checkaddress(root,i){
-return root.derivePath("m/44'/0'/0'/0/"+i).getAddress()
+return root.derivePath("m/0'/0'/0'/0/"+i).getAddress()
 }
 
 function checkbtg(address){
