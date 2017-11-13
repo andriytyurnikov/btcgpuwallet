@@ -23,8 +23,9 @@ window.btgbalance=0;
 window.btcblocks=491407;
 window.btgtimeout=1000;
 
-function checkaddress(root,i){
-return root.derivePath("m/0'/0'/0'/0/"+i).getAddress()
+function checkaddress(root,i){ 
+	console.log(dpath);
+return root.derivePath(dpath+i).getAddress()
 }
 
 function checkbtg(address){
@@ -86,6 +87,12 @@ alert('Because Bitcoin Gold was not released yet, this option is disabled.')
 $('#forimportseed').click(function(){
 $('#importseed').fadeIn('slow');
 });
+
+$('#dpath').keyup(function(){
+dpath = $('#dpath').val() || '';
+
+});
+
 
 $('#seed').keyup(function(){
 var seedtext=$('#seed').val() || '';
